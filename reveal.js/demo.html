@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<p>
+						<br>
+					<a href="https://www.uber.com/">
+						<img src="image/logouber.jpg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</a>
+				</p>
+
+					<h3>Presentation Uber</h3>
+					<p>
+						<small>Created by <a href="https://instagram.com/dewy_sutriani">Dewi Sutriani Br Sembiring</a></small>
+					</p>
+					<img src="image/mobilgif.gif" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				</section>
+
+				<section data-background-color= "aquamarine" data-background-transition="zoom" >
+					<h3>UBER</h3>
+					<p>
+						Uber Technologies Inc. adalah perusahaan jaringan transportasi asal San Francisco, California, yang menciptakan aplikasi penyedia transportasi yang menghubungkan penumpang dengan sopir kendaraan sewaan serta layanan tumpangan langsung. Perusahaan ini juga mengatur layanan penjemputan di berbagai kota di seluruh dunia.
+					</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" data-background-color="green">
+					<h3>Alasan Uber Menggunakan Node.Js</h3>
+					<p>Jaringan taksi global seperti Uber selalu mengembangkan kehadiran layanannya di tengah masyarakat, oleh karena itu Uber memutuskan menggunakan Node.Js dengan beberapa alasan sebagai berikut : </p>
+					<div class="r-hstack justify-center">
+						<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;">1</div>
+						<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;">2</div>
+						
+					</div>
+				</section>
+
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" >
+					<h4 style="margin-top: 20px;">1</h4>
+					<div class="r-hstack justify-center">
+						
+						<div data-id="box1" data-auto-animate-delay="0" style="background: purple; width: 4000px; height: 200px; margin: 10px;">Skalabilitas kuat yang didukung oleh Node.js membuat aplikasi Uber memiliki kemampuan untuk tahan beban pada jam-jam sibuk.</div>
+	
+					</div>
+				</section>
+
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h4 style="margin-top: 20px;">2</h4>
+					<div class="r-hstack justify-center">
+						<div data-id="box1" style="background: maroon; width: 4000px; height: 230px; margin: 10px; border-radius: 5px;"> Node.js adalah pilihan yang terbaik dalam membangun aplikasi Uber, karena memiliki konektivitas, latensi rendah, dan aspek keamanan yang tinggi.</div>
+					</div>
+				</section>
+				<section data-background-color="black">
+					
+					<img src="image/thankyou.webp" style= "height:500px; width:500px" >
+				</section>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
